@@ -10,11 +10,11 @@ class Steghide < Formula
   depends_on 'libtool'
 
   def install
-    system  './configure'
+    system "LDFLAGS=-L/usr/local/opt/gettext/lib CPPFLAGS=-I/usr/local/opt/gettext/include ./configure --prefix=#{prefix}"
 
     system 'sed -i \'\' -e "s/SHELL =.*/SHELL = \/bin\/bash/g" src/Makefile'
     system 'sed -i \'\' -e "s/LIBTOOL =.*/LIBTOOL = glibtool --tag CXX/g" src/Makefile'
-    system 'cd src && make'
+    system 'cd src && make && make install'
   end
 
   def test
