@@ -6,5 +6,9 @@ Stuff that is not on the standard repositories.
 
 ```bash
 brew tap caian-org/homebrew-cai
-brew install sshpass
 ```
+
+## Available formulas
+
+- `sshpass`
+- `steghide`
