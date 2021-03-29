@@ -16,6 +16,8 @@ matrix:
 install:
   - echo "brew update (without log)"
   - brew update >/dev/null
+  - echo "brew upgrade (without log)"
+  - brew upgrade >/dev/null
   - brew install --build-from-source Formula/sshpass.rb
   - brew install --build-from-source Formula/steghide.rb
 
