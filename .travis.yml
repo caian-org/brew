@@ -1,23 +1,8 @@
 language: generic
 
-
-matrix:
-  include:
-    - os: osx
-      osx_image: xcode12
-
-    - os: osx
-      osx_image: xcode11.3
-
-    - os: osx
-      osx_image: xcode10.1
-
+os: osx
 
 install:
-  - echo "brew update (without log)"
-  - brew update >/dev/null
-  - echo "brew upgrade (without log)"
-  - brew upgrade >/dev/null
   - brew install --build-from-source Formula/sshpass.rb
   - brew install --build-from-source Formula/steghide.rb
 
