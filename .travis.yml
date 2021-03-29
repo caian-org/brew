@@ -14,9 +14,11 @@ matrix:
 
 
 install:
+  - echo "brew update (without log)"
+  - brew update >/dev/null
   - brew install --build-from-source Formula/sshpass.rb
   - brew install --build-from-source Formula/steghide.rb
 
 script:
-  - sshpass --version
-  - steghide --version
+  - sshpass
+  - steghide
