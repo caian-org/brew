@@ -7,7 +7,7 @@ Stuff that is not on the standard repositories.
 [travis-shield]: https://img.shields.io/travis/caian-org/homebrew-formulas?logo=travis-ci&logoColor=FFF&style=for-the-badge
 [travis-url]: https://travis-ci.org/caian-org/homebrew-formulas
 
-[tag-shield]: https://img.shields.io/github/tag/caian-org/homebrew-formulas.svg?style=for-the-badge
+[tag-shield]: https://img.shields.io/github/tag/caian-org/homebrew-formulas.svg?logo=git&logoColor=FFF&style=for-the-badge
 [tag-url]: https://github.com/caian-org/homebrew-formulas/releases
 
 
