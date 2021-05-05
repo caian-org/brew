@@ -1,11 +1,16 @@
-[![Build Status @ Travis-CI][travis-shield]][travis-url] [![GitHub tag][tag-shield]][tag-url]
+[![Run Test][gh-run-t-shield]][gh-run-t-url]
+[![Package Test][gh-pkg-t-shield]][gh-pkg-t-url]
+[![GitHub tag][tag-shield]][tag-url]
 
 # apocryphal `brew` formulas
 
 Stuff that is not on the standard repositories.
 
-[travis-shield]: https://img.shields.io/travis/caian-org/homebrew-formulas?logo=travis-ci&logoColor=FFF&style=flat-square
-[travis-url]: https://travis-ci.org/caian-org/homebrew-formulas
+[gh-run-t-shield]: https://img.shields.io/github/workflow/status/caian-org/homebrew-formulas/run-test?label=run%20test&logo=github&style=flat-square
+[gh-run-t-url]: https://github.com/caian-org/homebrew-formulas/actions/workflows/run-test.yml
+
+[gh-pkg-t-shield]: https://img.shields.io/github/workflow/status/caian-org/homebrew-formulas/pkg-test?label=package%20test&logo=github&style=flat-square
+[gh-pkg-t-url]: https://github.com/caian-org/homebrew-formulas/actions/workflows/pkg-test.yml
 
 [tag-shield]: https://img.shields.io/github/tag/caian-org/homebrew-formulas.svg?logo=git&logoColor=FFF&style=flat-square
 [tag-url]: https://github.com/caian-org/homebrew-formulas/releases
