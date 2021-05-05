@@ -1,0 +1,26 @@
+name: pkg-test
+
+on:
+  push:
+    tags:
+      - "v*"
+    paths-ignore:
+      - "**.md"
+
+jobs:
+  run-test:
+    runs-on: macos-latest
+
+    steps:
+      - name: Tap repository
+        run: brew tap caian-org/formulas
+
+      - name: Install programs
+        run: |
+          brew install sshpass
+          brew install steghide
+
+      - name: Run programs
+        run: |
+          sshpass
+          steghide
