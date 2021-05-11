@@ -27,6 +27,7 @@ brew tap caian-org/formulas
 
 - `sshpass`
 - `steghide`
+- `tmux` @ v3.1c
 
 
 ## License
