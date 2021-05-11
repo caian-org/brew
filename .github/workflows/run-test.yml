@@ -28,6 +28,7 @@ jobs:
         run: |
           brew install --formula ./Formula/sshpass.rb
           brew install --formula ./Formula/steghide.rb
+          brew install --formula ./Formula/tmux31c.rb
 
       - name: Run programs
         run: |
