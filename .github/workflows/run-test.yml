@@ -2,19 +2,17 @@ name: run-test
 
 on:
   push:
-    branches:
-      - "*"
-    tags:
-      - "*"
+    branches: '*'
+    tags: '*'
     paths-ignore:
-      - "**.md"
+      - '.docs/**'
+      - '**.md'
   pull_request:
-    branches:
-      - "*"
-    tags:
-      - "*"
+    branches: '*'
+    tags: '*'
     paths-ignore:
-      - "**.md"
+      - '.docs/**'
+      - '**.md'
 
 jobs:
   run-test:

@@ -2,10 +2,10 @@ name: pkg-test
 
 on:
   push:
-    tags:
-      - "v*"
+    tags: 'v*'
     paths-ignore:
-      - "**.md"
+      - '.docs/**'
+      - '**.md'
 
 jobs:
   run-test:
