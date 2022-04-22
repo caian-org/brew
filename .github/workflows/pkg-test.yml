@@ -3,9 +3,8 @@ name: pkg-test
 on:
   push:
     tags: 'v*'
-    paths-ignore:
-      - '.docs/**'
-      - '**.md'
+    paths:
+      - 'Formula/**'
 
 jobs:
   run-test:
