@@ -1,0 +1,21 @@
+name: check-docs-links
+
+# only when something on ".docs" dir has changed
+on:
+  push:
+    paths:
+      - '.docs/**'
+
+jobs:
+  check-docs-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check documentation links
+        run: |
+          (
+            cd .docs
+            docker run --rm -v "${PWD}:/tmp/.docs" caian/md-link-check-recursive
+          )
