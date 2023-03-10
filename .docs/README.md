@@ -22,10 +22,10 @@ They are actively being used by my [workstation][workstation] bootstrap playbook
   just downgraded. Some day I'll figure it out... some day!
 
 <!-- "badges" refs (shield url and redirect url) -->
-[gh-run-t-shield]: https://img.shields.io/github/workflow/status/caian-org/homebrew-formulas/run-test?label=run%20test&logo=github&style=for-the-badge
+[gh-run-t-shield]: https://img.shields.io/github/actions/workflow/status/caian-org/homebrew-formulas/run-test.yml?label=run%20test&logo=github&style=for-the-badge
 [gh-run-t-url]: https://github.com/caian-org/homebrew-formulas/actions/workflows/run-test.yml
 
-[gh-pkg-t-shield]: https://img.shields.io/github/workflow/status/caian-org/homebrew-formulas/pkg-test?label=package%20test&logo=github&style=for-the-badge
+[gh-pkg-t-shield]: https://img.shields.io/github/actions/workflow/status/caian-org/homebrew-formulas/pkg-test.yml?label=package%20test&logo=github&style=for-the-badge
 [gh-pkg-t-url]: https://github.com/caian-org/homebrew-formulas/actions/workflows/pkg-test.yml
 
 [tag-shield]: https://img.shields.io/github/tag/caian-org/homebrew-formulas.svg?logo=git&logoColor=FFF&style=for-the-badge
