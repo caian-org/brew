@@ -1,13 +1,14 @@
 name: pkg-test
 
+
 on:
   push:
-    tags: 'v*'
-    paths:
-      - 'Formula/**'
+    tags: ['v*']
+    paths: ['Formula/**']
+
 
 jobs:
-  run-test:
+  pkg-test:
     runs-on: macos-latest
 
     steps:

@@ -1,17 +1,17 @@
 name: check-docs-links
 
+
 # only when something on ".docs" dir has changed
 on:
   push:
-    paths:
-      - '.docs/**'
+    paths: ['.docs/**']
+
 
 jobs:
   check-docs-links:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Check documentation links
         run: |

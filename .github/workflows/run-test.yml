@@ -1,24 +1,24 @@
 name: run-test
 
+
 on:
   push:
-    branches: '*'
-    tags: '*'
-    paths:
-      - 'Formula/**'
+    branches: ['*']
+    tags: ['*']
+    paths: ['Formula/**']
+
   pull_request:
-    branches: '*'
-    tags: '*'
-    paths:
-      - 'Formula/**'
+    branches: ['*']
+    tags: ['*']
+    paths: ['Formula/**']
+
 
 jobs:
   run-test:
     runs-on: macos-latest
 
     steps:
-      - name: Checkout to vrelease-formula
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
       - name: Install formulas from source
         run: |
